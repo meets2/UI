@@ -1,0 +1,16 @@
+#preloader{
+    background: #fff url('../images/preloader3.gif') no-repeat center;
+    background-size: 10%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    transition: 0.4s;
+    z-index: 100;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px){
+    #preloader{
+    background-size: 30%;
+
+    }
+}

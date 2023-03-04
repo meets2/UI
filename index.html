@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/animation.css">
+    <link rel="stylesheet" href="./styles/preloader.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet | Home</title>
+</head>
+<body>
+    <div id="preloader">
+        
+    </div>
+    <div class="container" id="con"> 
+        <div class="side-nav"  id="menu" onmouseover="showMenu()">
+            <a href="./index.html" id="logo-link"><img src="../images/logo_md.png" class="logo" alt=""></a>
+            <div class="links" id="links">
+                <a href="./index.html">Home</a>
+                <a href="./html/projects.html">Projects</a>
+                <a href="./html/contact.html">Contact</a>
+            </div>
+            <i class="fa-solid fa-arrow-left" onclick="hideMenu()" style="color:transparent;"></i>
+            <a href="" id="projects">LATEST PROJECT</a>
+        </div>
+        <div class="navbar-icon">
+            <i class="fa-solid fa-bars" onclick="showMenu()" onmouseout="hideMenu()" id="bars"></i>
+        </div>
+        <div class="text-box" >
+            <span>I'M</span>
+            <h1 class="anim a1">MEET SOLANKI</h1>
+            <p class="anim a2">I WILL HELP YOU TO</p>
+            <h2 class="anim a3">Design Your Journey</h2>
+            <!-- <div class="icon">
+                <img src="images/arrow.png" alt="">
+            </div> -->
+            <div class="now playing anim" id="music">
+                <span class="bar n1">A</span>
+                <span class="bar n2">B</span>
+                <span class="bar n3">c</span>
+                <span class="bar n4">D</span>
+                <span class="bar n5">E</span>
+                <span class="bar n6">F</span>
+                <span class="bar n7">G</span>
+                <span class="bar n8">H</span>
+                <!-- <button onclick="toggle(this)">Kill the Joy.</button> -->
+            </div>
+            <embed src="./music/peace.mp3" loop="true" autostart="true" width="2" height="0">
+        </div>
+        
+        <div class="bottom-nav">
+            <a href="https://www.instagram.com/ecofreak_meet/" target="_blank"><img src="./images/logo-instagram.png" alt=""></a>
+            <a href="" onclick="ShowNotUse()"><img src="./images/logo-facebook.png" alt="" target="_blank"></a>
+            <a href="https://www.snapchat.com/add/meet.solankii?share_id=ViC1S81jsic&locale=en-US" target="_blank"><img src="./images/logo-snapchat.png" alt=""></a>
+            <a href="https://www.linkedin.com/in/meet-solanki-b16513240/"><img src="./images/logo-linkedin.png" alt="" target="_blank"></a>
+            <!-- <a href=""><img src="images/logo-snapchat.png" alt=""></a> -->
+        </div>
+    </div>
+    <script src="./javascript/menu.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/solid.min.css" integrity="sha512-bdTSJB23zykBjGDvyuZUrLhHD0Rfre0jxTd0/jpTbV7sZL8DCth/88aHX0bq2RV8HK3zx5Qj6r2rRU/Otsjk+g==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/preloader.css">
+    <link rel="stylesheet" href="../styles/animation.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet | Contact</title>
+</head>
+<body>
+    <div id="preloader"></div>
+    <div class="contact-container" id="con"> 
+        <div class="side-nav"  id="menu" onmouseover="showMenu()">
+            <a href="../index.html" id="logo-link"><img src="../images/logo_md.png" class="logo" alt=""></a>
+            <div class="links">
+                <a href="../index.html">Home</a>
+                <a href="./projects.html">Projects</a>
+                <a href="./contact.html">Contact</a>
+            </div>
+            <i class="fa-solid fa-arrow-left" onclick="hideMenu()" style="color:transparent;"></i>
+            <a href="" id="projects">LATEST PROJECT</a>
+        </div>
+        <div class="navbar-icon" id="contactPageMenuIcon">
+            <i class="fa-solid fa-bars" onclick="showMenu()" onmouseout="hideMenu()" id="bars"></i>
+            <embed src="../music/peace.mp3" loop="true" autostart="true" width="2" height="0">
+            </div>
+        <!-- -------------------- MAIN CONTAINER ---------------------- -->
+        <div class="contactMain">
+                <div class="contact-details">
+                    <h3>CONTACT US</h3>
+                    <p>Let's talk<br>about you</p>
+                </div>
+
+
+                <form action="" class="contact-form">
+                    <h2>Send Us a Message</h2>
+                    <span>
+                        <p>Fullname</p>
+                        <input type="text" name="" id="" required>
+                    </span>
+                    <span>
+                        <p>Email</p>
+                        <input type="email" name="" id="" required>
+                    </span>
+                    <span>
+                        <p>Subject</p>
+                        <input type="text" name="" id="" required>
+                    </span>
+                    <span>
+                        <p>Your message here</p>
+                        <textarea name="" id="" cols="25" rows="2"></textarea>
+                    </span>
+                    
+                    <button onclick="redirect()" onmouseover="translateFor()" onmouseout="translateBack()"><a href="./index.html">Send &nbsp;<i class="fa-solid fa-chevron-right" id="buttonIcon"></i></a></button>
+                </form>
+        </div>
+        <div class="bottom-nav" id="bottom-nav">
+            <a href="https://www.instagram.com/ecofreak_meet/" target="_blank"><img src="../images/logo-instagram.png" alt=""></a>
+            <a href="" onclick="ShowNotUse()"><img src="../images/logo-facebook.png" alt="" target="_blank"></a>
+            <a href="https://www.snapchat.com/add/meet.solankii?share_id=ViC1S81jsic&locale=en-US" target="_blank"><img src="../images/logo-snapchat.png" alt=""></a>
+            <a href="https://www.linkedin.com/in/meet-solanki-b16513240/"><img src="../images/logo-linkedin.png" alt="" target="_blank"></a>
+            <!-- <a href=""><img src="images/logo-snapchat.png" alt=""></a> -->
+        </div>
+        
+    </div>
+    <script src="../javascript/menu.js"></script>
+</body>
+</html>
