@@ -28,7 +28,7 @@
         function redirect(){
             alert('Site is Under Observation, redirecting to homepage...')
         }
-
+        document.getElementById('inputName').focus();
 
         let loader = document.getElementById('preloader');
         setTimeout(() => {
