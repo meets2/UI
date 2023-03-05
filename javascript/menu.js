@@ -34,3 +34,7 @@
             loader.style.opacity = '0';
             loader.style.zIndex = '-1';
         }, 1000);
+
+        function notSupported(){
+                alert("Decode control detected UNSUPPORTED DEVICE");
+        }
