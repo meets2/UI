@@ -38,3 +38,6 @@
         function notSupported(){
                 alert("Decode control detected UNSUPPORTED DEVICE");
         }
+        function noLongerSupport(){
+                alert("Available at midnight");
+        }
